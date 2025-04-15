@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="./loginform.html" method="get">
+    <h2>Registration Form</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password" required><br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" name="confirm_password" required><br><br>
+
+        <label>Phone:</label>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="traveling"> Traveling
+        <input type="checkbox" name="hobby" value="sports"> Sports<br><br>
+
+        <label>Upload Profile Picture:</label>
+        <input type="file" name="profile_pic"><br><br>
+
+        <label>Country:</label>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
